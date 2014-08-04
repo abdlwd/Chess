@@ -3,11 +3,13 @@ Chess
 
 ## Overview
 
-This is a simple version of two-player Chess built in Ruby. It is played in the terminal. To play, run the command "ruby chess.rb". 
+This is a simple version of two-player Chess built in Ruby. It is played in the terminal. To play, run the command `ruby chess.rb`. 
 
-Choose a move by entering two coordinates: one corresponding to the position of the move, and one corresponding to the end position. For example, the command "a2, a3" will move the piece from position A2 to A3. Whitespace is ignored. The game will do error handling to ensure that the move is valid. 
+## How to play
 
-## Alternate Rules
+Choose a move by entering two coordinates separated by a comma: one corresponding to the position of the move, and one corresponding to the end position. For example, the command `a2, a3` will move the piece from position A2 to A3. Whitespace is ignored. The game will do error handling to ensure that the move is valid. Two players can alternate typing at the same terminal. 
+
+### Alternate Rules
 
 This version of Chess does not feature some alternate rules like castling or pawn promotion. It does, however, feature [En passant](http://en.wikipedia.org/wiki/En_passant)
  
